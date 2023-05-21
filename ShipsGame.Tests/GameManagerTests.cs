@@ -21,7 +21,7 @@ public class GameManagerTests
     }
 
     [Test]
-    public void GameBoard_Should_HaveCorrectNumberOfShips()
+    public void GameManager_When_AllShipsAreSank_Should_BeGameOver()
     {
         var field1 = board.Ships[0].fields[0];
         var field2 = board.Ships[0].fields[1];
